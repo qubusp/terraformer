@@ -1,0 +1,8 @@
+language: generic
+
+jobs:
+  include:
+  - stage: build
+    script:
+    - docker build -t qubsup/terraformer .
+    - docker push qubsup/terraformer
