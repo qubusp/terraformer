@@ -13,5 +13,6 @@ RUN apt update &&\
         ant \
         ssh-client \
         unzip \
+        snapd \
         iputils-ping &&\
         snap install terraform-snap
