@@ -7,11 +7,6 @@ RUN apt update &&\
         xvfb \
         curl \
         git \
-        mercurial \
-        maven \
-        openjdk-8-jdk \
-        ant \
-        ssh-client \
         unzip \
         snapd \
         iputils-ping &&\
